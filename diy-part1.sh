@@ -21,4 +21,4 @@ echo "src-git mosdns https://github.com/sbwml/luci-app-mosdns" >> feeds.conf.def
 echo "src-git openclash https://github.com/vernesong/OpenClash" >> feeds.conf.default
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall" >> feeds.conf.default
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-git clone https://github.com/allegro0132/Openwrt-mlnx-ofed.git package/
+git clone https://github.com/allegro0132/Openwrt-mlnx-ofed.git package/Openwrt-mlnx-ofed
