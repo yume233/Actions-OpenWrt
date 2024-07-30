@@ -15,5 +15,10 @@
 
 # Add a feed source
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall" >> feeds.conf.default
-echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
+echo "src-git lucky https://github.com/gdy666/luci-app-lucky" >> feeds.conf.default
+echo "src-git dead https://github.com/QiuSimons/luci-app-daed" >> feeds.conf.default
+echo "src-git mosdns https://github.com/sbwml/luci-app-mosdns" >> feeds.conf.default
+echo "src-git openclash https://github.com/vernesong/OpenClash" >> feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall" >> feeds.conf.default
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/allegro0132/Openwrt-mlnx-ofed.git package/
